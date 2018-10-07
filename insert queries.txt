@@ -1,0 +1,19 @@
+insert into docent (Dnr, Dafk, Dnaam, Dgeslacht, Dgbd)
+insert into lokaal (Lid, Lnaam, Lcapa, Lbeamer)
+insert into basis (bafk, bfase, bnaam, bastd, bagrp, bpc, bsoort)
+insert into minor (bafk, mafk, mfase, mnaam, mastd, magrp, )
+insert into activiteit (aid, ascu, anaam)
+insert into theorie (tdafk, aantal)
+insert into oefpra()
+
+insert opleiding_has_docent(dafk, bafk)
+insert into opleiding_has_activiteit (aid, bafk, mafk)
+
+
+insert into docent (1, JME, Jan Meel, M, dd/mm/yyyy);
+insert into docent (2, SVS, Shana Van Dessel, v, dd/mm/yyyy);
+insert into docent (3, BAE, Bram Aerts, M, dd/mm/yyyy);
+insert into docent (4, IDE, Inge Deygers, V, dd/mm/yyyy);
+insert into docent (5, DJA, Dennie Jansen, V, dd/mm/yyyy);
+insert into docent (6, WBU, Wendy Busschots, V, dd/mm/yyyy);
+
